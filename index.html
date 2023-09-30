@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Menú Encabezado -->
+  <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Nick</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+</div> 
+
+  <!-- Seccion inicio portafolio -->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="hero.png" alt="">
+        </div>
+        <h1>Cristian Arias</h1>
+        <h2>Estudiante / Desarrollador Web</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Seccion sobre mi portafolio -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, Soy Cristian.</span>"En el viaje de mi vida, soy el autor de mi propio destino. Mi presencia en la web es una puerta abierta al mundo, donde comparto mis sueños, logros y pasiones. Cada proyecto que presento es una nueva página que escribo con determinación y excelencia.</p>
+
+        <div class="fila">
+            <!-- Datos Personales -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        14-01-2006
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        +51 978492215
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        ca0813642@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Pacasmayo / Perú
+                    </li>
+                </ul>
+            </div>
+            <!-- Intereses -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Jugar</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Music</span>    
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>Soocer</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-computer"></i>
+                        <span>Programar</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <span>Diseño</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-plane"></i>
+                        <span>Viajar</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-book"></i>
+                        <span>Libros</span>
+                    </div>
+                    <div class="intereses"> 
+                        <i class="fa-solid fa-motorcycle"></i>
+                        <span>Motos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        </div> 
+        </section>
+  <!-- Seccion Habilidades -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+         <!-- Habilidades Tecnicas -->
+         <div class="col">
+            <h3>Habilidades técnicas</h3>
+            <div class="skills">
+                <span>JavaScript</span>
+                <div class="barra-skill">
+                    <div class="progreso JavaScript">
+                        <span>20%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <span>HTML & CSS</span>
+                <div class="barra-skill">
+                    <div class="progreso HTMLCSS">
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <span>DataBase</span>
+                <div class="barra-skill">
+                    <div class="progreso DataBase">
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <span>Photoshop</span>
+                <div class="barra-skill">
+                    <div class="progreso photoshop">
+                        <span>40%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Habilidades Profesionales -->
+            <div class="col">
+                <h3>Habilidades Profesionales</h3>
+                <div class="skills">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso Comunicacion">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso Trabajo">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso Creatividad">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso Dedicación">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Seccion Curriculum -->
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Clases online</span>
+                    <span class="fecha">2022 - 2024</span>
+                    <p>Soy un apasionado del arte y la multimedia con una sólida formación académica y una amplia experiencia en la creación y producción de contenido visual y multimedia. Mi habilidad para combinar creatividad y tecnología me ha permitido destacar en proyectos diversos y desafiantes.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Diseño Gráfico e Ilustración</h4>
+                    <span class="casa">Clases online</span>
+                    <span class="fecha">2020 - 2022</span>
+                    <p>Dominio de herramientas como Adobe Creative Suite (Photoshop, Illustrator, InDesign) para crear diseños gráficos impactantes, logotipos y elementos visuales atractivos.
+                        Experiencia en ilustración digital y tradicional, que me permite dar vida a ideas a través de la narración visual.
+                        Creación de infografías y material promocional de alta calidad que comunica de manera efectiva mensajes complejos.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Diseño de Sitios Web y UX/UI</h4>
+                    <span class="casa">Jorge desmaison Seminario</span>
+                    <span class="fecha">2022 - 2025</span>
+                    <p>Diseño y desarrollo de sitios web atractivos y funcionales utilizando HTML, CSS y CMS como WordPress.
+                        Experiencia en diseño de interfaz de usuario (UI) y experiencia de usuario (UX) para crear experiencias de usuario intuitivas y agradables.
+                        Optimización de sitios web para una navegación rápida y una mejor visibilidad en motores de búsqueda.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2022 - 2024</span>
+                    <p>Soy un apasionado del arte y la multimedia con una sólida formación académica y una amplia experiencia en la creación y producción de contenido visual y multimedia. Mi habilidad para combinar creatividad y tecnología me ha permitido destacar en proyectos diversos y desafiantes.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Diseño Gráfico e Ilustración</h4>
+                    <span class="casa">Clases online</span>
+                    <span class="fecha">2020 - 2022</span>
+                    <p>Dominio de herramientas como Adobe Creative Suite (Photoshop, Illustrator, InDesign) para crear diseños gráficos impactantes, logotipos y elementos visuales atractivos.
+                        Experiencia en ilustración digital y tradicional, que me permite dar vida a ideas a través de la narración visual.
+                        Creación de infografías y material promocional de alta calidad que comunica de manera efectiva mensajes complejos.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Diseño de Sitios Web y UX/UI</h4>
+                    <span class="casa">Jorge desmaison Seminario</span>
+                    <span class="fecha">2022 - 2025</span>
+                    <p>Diseño y desarrollo de sitios web atractivos y funcionales utilizando HTML, CSS y CMS como WordPress.
+                        Experiencia en diseño de interfaz de usuario (UI) y experiencia de usuario (UX) para crear experiencias de usuario intuitivas y agradables.
+                        Optimización de sitios web para una navegación rápida y una mejor visibilidad en motores de búsqueda</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- Seccion Portafolio -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="p1.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p2.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p3.jpg.avif" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p4.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p5.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p6.jpg.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="text" placeholder="Dirección de correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+        
+                        <!-- Mapa -->
+                        <div class="col">
+                            <img src="ubicacion.png.png" alt="">
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Pacasmayo / Perú
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-mobile-screen"></i>
+                                        Llamame:  +51 978492215
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        Email: ca0813642@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- footer -->
+            <footer>
+                <a href="#inicio" class="arriba">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </footer>
+        
+            <script src="scritp.js"></script>
+
+        </body>
+        </html>
+        
